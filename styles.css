@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://bolddesignz.com/cdn/shop/products/Bold_drop_2023-34.jpg?v=1678870498');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #6a0dad;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  display: block;
+  margin-bottom: 10px; 
+  margin-left: 20px; 
+}
+
+.options {
+  display: flex;
+}
+
+.options input[type="radio"] {
+  margin-right: 1px;
+  margin-bottom: 50px;
+}
+.options label {
+  margin-right: 15px;
+}
+
+textarea {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #6a0dad; /* Purple background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-top: 20px; /* Add some space above the button */
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #4b0082; /* Darker purple color on hover */
+}
